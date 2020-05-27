@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-dnd-board-with-react-hooks/static/css/main.b44f8e1d.chunk.css",
+    "main.js": "/React-dnd-board-with-react-hooks/static/js/main.64e87005.chunk.js",
+    "main.js.map": "/React-dnd-board-with-react-hooks/static/js/main.64e87005.chunk.js.map",
+    "runtime-main.js": "/React-dnd-board-with-react-hooks/static/js/runtime-main.f21f8f49.js",
+    "runtime-main.js.map": "/React-dnd-board-with-react-hooks/static/js/runtime-main.f21f8f49.js.map",
+    "static/js/2.99f3a09a.chunk.js": "/React-dnd-board-with-react-hooks/static/js/2.99f3a09a.chunk.js",
+    "static/js/2.99f3a09a.chunk.js.map": "/React-dnd-board-with-react-hooks/static/js/2.99f3a09a.chunk.js.map",
+    "index.html": "/React-dnd-board-with-react-hooks/index.html",
+    "precache-manifest.35cb0a129d826d94d77906e87be018bf.js": "/React-dnd-board-with-react-hooks/precache-manifest.35cb0a129d826d94d77906e87be018bf.js",
+    "service-worker.js": "/React-dnd-board-with-react-hooks/service-worker.js",
+    "static/css/main.b44f8e1d.chunk.css.map": "/React-dnd-board-with-react-hooks/static/css/main.b44f8e1d.chunk.css.map",
+    "static/js/2.99f3a09a.chunk.js.LICENSE.txt": "/React-dnd-board-with-react-hooks/static/js/2.99f3a09a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f21f8f49.js",
+    "static/js/2.99f3a09a.chunk.js",
+    "static/css/main.b44f8e1d.chunk.css",
+    "static/js/main.64e87005.chunk.js"
+  ]
+}
