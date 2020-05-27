@@ -1,0 +1,73 @@
+.main {
+	text-align: center;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: space-around;
+	justify-content: space-around;
+	flex-basis: 80%;
+	padding: 10px;
+}
+.create-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: space-around;
+	justify-content: space-around;
+	flex-basis: 80%;
+	padding: 10px;
+}
+
+ h2, input {
+	 margin-bottom: 10px;
+ }
+
+ .close-wrapper {
+	 flex: 1;
+	 display: flex;
+	 justify-content: space-between;
+	 max-width: 220px;
+	 width: 100%;
+ }
+
+.header {
+	width: 100%;
+	height: 40px;
+}
+.popup-container {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1000;
+	background-color: rgba(0, 0, 0, 0.4);
+	display: -webkit-box;
+	display: flex;
+	justify-content: center;
+	-webkit-justify-content: center;
+	align-items: center;
+	-webkit-align-items: center;
+	cursor: pointer;
+}
+
+.popup-content {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	z-index: 10001;
+	min-width: 380px;
+	min-height: 150px;
+	box-sizing: border-box;
+	font-size: 15px;
+	line-height: 1.5;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
+	cursor: initial;
+
+    background-color: #F3F3F3;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.144), 0 10px 10px rgba(0, 0, 0, 0.144);
+}
+
+
