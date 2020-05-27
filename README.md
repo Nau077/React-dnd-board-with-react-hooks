@@ -15,3 +15,6 @@ npm install + npm run start<br />
 Компонент board и его составляющие находятся в блоке src/components/BoardModule<br />
 Компонент card находится в блоке src/components/BoardModule<br />
 Константа начального стейта находится в utils/BaseState.js<br />
+
+### demo:
+https://nau077.github.io/React-dnd-board-with-react-hooks/
