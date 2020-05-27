@@ -4,9 +4,9 @@ import AddIcon from '@material-ui/icons/Add';
 import '../../styles/Main.css';
 
 
-function BoardHeader( { canBeAdded, boardName, boardId, type, color_bg } ) {
+function BoardHeader( { canBeAdded, boardName, boardId, type, colorBg } ) {
 
-    const [ isShow, setIsShow] = useState(null);
+    const [ isShow, setIsShow ] = useState(null);
 
     const setPopupValue = () => {
         
@@ -21,7 +21,7 @@ function BoardHeader( { canBeAdded, boardName, boardId, type, color_bg } ) {
     };
 
     const style_circle = {
-        background: color_bg,
+        background: colorBg,
     };
 
     return (

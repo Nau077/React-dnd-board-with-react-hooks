@@ -21,7 +21,7 @@ function Card(props) {
     const dragStart = e => {
         const target = e.target;
 
-        e.dataTransfer.setData('cardId', `{"target": "${target.id}", "id": "${props.id}", "type": "${props.type}", "title": "${props.title}", "board_id": "${props.board_id}" }`);
+        e.dataTransfer.setData('cardId', `{"target": "${target.id}", "id": "${props.id}", "type": "${props.type}", "title": "${props.title}", "board_id": "${props.boardId}" }`);
 
     };
 

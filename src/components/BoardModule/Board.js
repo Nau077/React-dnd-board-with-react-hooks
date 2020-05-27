@@ -56,14 +56,14 @@ function Board({ id, className, cards, type, canBeAdded, boardName, color }) {
 
     return (
         <div className="boardwrapper">
-                <BoardHeader canBeAdded={canBeAdded} boardName={boardName} boardId={id} type={type} color_bg={color}/>
+                <BoardHeader canBeAdded={canBeAdded} boardName={boardName} boardId={id} type={type} colorBg={color}/>
             <div
                 id={id}
                 className={className}
                 onDrop={drop}
                 onDragOver= {dragOver}
             >
-                {cards && cards.map(item => <Card key={item.id } {...item } board_id={id} board_name={boardName}/>)}
+                {cards && cards.map(item => <Card key={item.id } {...item } boardId={id} board_name={boardName}/>)}
             </div>
         </div>
     );
